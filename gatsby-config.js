@@ -3,5 +3,5 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "tsx",
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-react-helmet`, `gatsby-plugin-image`, `gatsby-plugin-sharp`, `gatsby-transformer-sharp`],
 };

@@ -1,0 +1,29 @@
+.T-container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.T-content{
+  width:99%;
+  color:grey;
+  font-size:1.2rem;
+  padding:1.5rem 1.5rem;
+  border:1px solid grey;
+  margin:1.2rem 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:12px;
+  transition:all 0.5s ;
+text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+
+.T-content:hover{
+  box-shadow:2px 2px 3px 3px;
+  text-transform : uppercase;
+  }

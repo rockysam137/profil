@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.Navbar{
+  height:3.5rem;
+  width:100%;
+  padding: 0.5rem 0px;
+  background:grey;
+}
+.N-wrapper{
+  display:flex;
+  align-items:center;
+  margin:0 0.8rem;
+}
+.logo{
+  flex-grow:1;
+  font-size:1.5rem;
+  color:white;
+  line-height: 2rem;
+  letter-spacing: 0.5rem;
+}
+.list-menu{
+ display:flex;
+ align-items:center;
+ list-style:none;
+}
+.Link{
+  text-decoration: none;
+  margin:0 0.5rem;
+  font-size:1.3rem;
+  color:white;
+}
+@media Screen and (max-width:550px){
+ .list-menu{
+   display:none;
+  }
+}
