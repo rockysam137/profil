@@ -1,5 +1,5 @@
 import * as React from "react"
-import Navbar from '../component/navbar.tsx'
+import Navbar from '../component/navbar.js'
 import Intro from './intro.js'
 const IndexPage = () => {
   return (
