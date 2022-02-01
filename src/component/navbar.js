@@ -17,26 +17,31 @@ export default function Navbar() {
           <div className="logo">RockQ.dev</div>
           <ul className={click ? "list-menu active" : "list-menu"}>
             <li>
-              <Link className="Link" to="/">
+              <Link className="Link" to="/" onClick={handleclick}>
                 Home
               </Link>
             </li>
             <li>
-              <Link className="Link" to="/about">
+              <Link className="Link" to="/About/" onClick={handleclick}>
                 AboutMe
               </Link>
             </li>
             <li>
-              <Link className="Link" to="/contac">
-                Contac
+              <Link className="Link" to="/Blog/" onClick={handleclick}>
+                Blog
               </Link>
             </li>
             <li>
-              <Link className="Link" to="/galery">
+              <Link className="Link" to="/Galery/" onClick={handleclick}>
                 galery
               </Link>
             </li>
           </ul>
+          {/* <div className={click ? "icon_sosmed active" : "icon_sosmed"}> */}
+          {/*   <i className="fa-brands fa-facebook"></i> */}
+          {/*   <i className="fa-brands fa-instagram"></i> */}
+          {/*   <i className="fa-brands fa-whatsapp"></i> */}
+          {/* </div> */}
           <div className="icon" onClick={handleclick}>
             <i className={click ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
           </div>

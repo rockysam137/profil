@@ -45,6 +45,9 @@ li{
   color:slateblue;
   z-index:2;
 }
+.icon_sosmed{
+  display:none;
+}
 
 @media Screen and (max-width:550px){
   .list-menu{
@@ -71,5 +74,15 @@ li{
   }
   .icon{
     display:block;
+    cursor:pointer;
+  }
+  .icon_sosmed.active{
+    display:inline-block;
+    position:absolute;
+    bottom:-15rem;
+    font-size:1.5rem;
+    z-index:5;
+    text-align:center;
+    transition:all 1s;
   }
 }

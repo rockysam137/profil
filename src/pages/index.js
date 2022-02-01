@@ -1,11 +1,12 @@
 import * as React from "react"
-import Navbar from '../component/navbar.js'
+import Layout from '../component/Layout.js'
 import Intro from './intro.js'
 const IndexPage = () => {
   return (
     <div>
-      <Navbar />
-      <Intro />
+      <Layout>
+        <Intro />
+      </Layout>
     </div>
   )
 }
