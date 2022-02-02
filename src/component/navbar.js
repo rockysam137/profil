@@ -36,12 +36,11 @@ export default function Navbar() {
                 galery
               </Link>
             </li>
+            <div className="sosmed_icon">
+              <a href="https://www.facebook.com/rocky.roda.16" rel="noopener noreferrer" target="_blank"><i className="sos fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/rocky_ceker/" rel="noopened noreferrer" target="_blank"> <i className="sos fa-brands fa-instagram"></i></a>
+            </div>
           </ul>
-          {/* <div className={click ? "icon_sosmed active" : "icon_sosmed"}> */}
-          {/*   <i className="fa-brands fa-facebook"></i> */}
-          {/*   <i className="fa-brands fa-instagram"></i> */}
-          {/*   <i className="fa-brands fa-whatsapp"></i> */}
-          {/* </div> */}
           <div className="icon" onClick={handleclick}>
             <i className={click ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
           </div>

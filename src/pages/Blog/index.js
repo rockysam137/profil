@@ -5,7 +5,8 @@ export default function Blog() {
   return (
     <div>
       <Layout>
-        <p>Blog is Comming Soon</p>
+        ini Blog
+
       </Layout>
     </div>
   )

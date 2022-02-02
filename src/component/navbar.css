@@ -45,7 +45,7 @@ li{
   color:slateblue;
   z-index:2;
 }
-.icon_sosmed{
+.sosmed_icon{
   display:none;
 }
 
@@ -76,13 +76,28 @@ li{
     display:block;
     cursor:pointer;
   }
-  .icon_sosmed.active{
-    display:inline-block;
-    position:absolute;
-    bottom:-15rem;
-    font-size:1.5rem;
-    z-index:5;
-    text-align:center;
-    transition:all 1s;
+  /* .icon_sosmed.active{ */
+  /*   display:inline-flex; */
+  /*   position:absolute; */
+  /*   bottom:-15rem; */
+  /*   font-size:1.5rem; */
+  /*   z-index:5; */
+  /*   text-align:center; */
+  /* } */
+  .sosmed_icon{
+    display:inline-flex;
+    margin:1.2rem 1.5rem;
+    font-size:2.5rem;
   }
+  .sos{
+    margin:0 1rem;
+    cursor:pointer;
+  }
+  .fa-facebook{
+    color:blue;
+  }
+  .fa-instagram{
+    color:#fa0276;
+  }
+  
 }

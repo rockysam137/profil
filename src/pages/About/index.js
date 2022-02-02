@@ -8,10 +8,10 @@ export default function About() {
         <div className="About">
           <div className="A__wrapper">
             <p>
-             About is comming soon 
+             About is Comming soon 
             </p>
           </div>
-        </div>
+          </div>
       </Layout>
     </div>
   )
