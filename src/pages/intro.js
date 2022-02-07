@@ -20,6 +20,9 @@ const Intro = () => {
             saat ini suka bekerja dengan nodejs/gatsbyjs
             & arduino
           </div>
+          <div className='T__content'>
+            bahasa error sudah biasa saya hadapi
+          </div>
         </div>
       </div>
     </div>

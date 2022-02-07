@@ -1,15 +1,14 @@
 import React from 'react'
 
-const About = () => {
+const kamuda = () => {
+  // const [click, setClick] =useState(false)
   return (
     <div>
-      <div className="about">
-        <div className='wrapper'>
-          <b>semua tentang saya</b>
-        </div>
+      <div className="learn">
+
       </div>
     </div>
   )
 }
 
-export default About
+export default kamuda

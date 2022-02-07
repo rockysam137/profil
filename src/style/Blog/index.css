@@ -1,0 +1,28 @@
+.I{
+  background-color:grey;
+  height:100vh;
+}
+.i_wrapper{
+  border:solid 1px black;
+  border-radius: 10px;
+  background-color:white;
+  width:20rem;
+  height:27rem;
+}
+img{
+  width:80%;
+  margin:2rem 2rem 1rem 1rem;
+}
+.I_title{
+  display:block;
+  color:grey;
+  font-size:1.5rem;
+  font-weight:600;
+  text-align:center;
+}
+.I_title_isi{
+  text-align:center;
+  color:grey;
+  opacity:0.2;
+  font-size:2.3rem;
+}
